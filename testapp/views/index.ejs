@@ -5,7 +5,13 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
+  	<!-- to include other template files all you have to do is this following -->
+  	<% include nav.ejs %>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    <p>This is a trial web application</p>
+    <% var i = 0; while(i++ < 100) { %>
+    	<a href="#">This is a test link</a>
+    <% } %>
   </body>
 </html>

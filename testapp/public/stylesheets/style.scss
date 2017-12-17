@@ -1,0 +1,47 @@
+$link-color: #1E90FF;
+$bg-green: #f5f5dc + #008000;
+
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: $link-color * 0.8 + black;
+
+  .bg-green {
+  	padding: 0.5em;
+  	margin: 0.2em;
+  	border: thick 2em black;
+  	border-radius: 1em;
+  	background: lighten($bg-green, 20%);
+  }
+
+  table tbody {
+  	color: black;
+  	tr {
+  		padding: 1em;
+  		border: thick 10px black;
+  		
+  		td {
+  			padding: 0.4em;
+  			border: thin 3px $link-color;
+
+  			&:hover {
+  				background-color: $bg-green;
+  			}
+  		}
+
+  		&:hover {
+  			background: lighten(grey, 10%);
+  		}
+  	}
+  }
+
+  div.row {
+  	padding: 1em;
+  	margin: 0.6em;
+  }
+}
+
+a {
+  color: $link-color;
+}

@@ -1,8 +1,30 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+  color: #1873cc; }
+  body .bg-green {
+    padding: 0.5em;
+    margin: 0.2em;
+    border: thick 2em black;
+    border-radius: 1em;
+    background: white; }
+  body table tbody {
+    color: black; }
+    body table tbody tr {
+      padding: 1em;
+      border: thick 10px black; }
+      body table tbody tr td {
+        padding: 0.4em;
+        border: thin 3px #1E90FF; }
+        body table tbody tr td:hover {
+          background-color: #f5ffdc; }
+      body table tbody tr:hover {
+        background: #9a9a9a; }
+  body div.row {
+    padding: 1em;
+    margin: 0.6em; }
 
 a {
-  color: #00B7FF;
-}
+  color: #1E90FF; }
+
+/*# sourceMappingURL=style.css.map */
